@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBDC96127BC18DA003D0A3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC96027BC18DA003D0A3B /* AppDelegate.swift */; };
+		CEBDC96327BC18DA003D0A3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC96227BC18DA003D0A3B /* SceneDelegate.swift */; };
+		CEBDC96527BC18DA003D0A3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC96427BC18DA003D0A3B /* ViewController.swift */; };
+		CEBDC96827BC18DA003D0A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC96627BC18DA003D0A3B /* Main.storyboard */; };
+		CEBDC96A27BC18DB003D0A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC96927BC18DB003D0A3B /* Assets.xcassets */; };
+		CEBDC96D27BC18DB003D0A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBDC96B27BC18DB003D0A3B /* LaunchScreen.storyboard */; };
+		CEBDC97827BC18DB003D0A3B /* FastFoodRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC97727BC18DB003D0A3B /* FastFoodRandomizerTests.swift */; };
+		CEBDC98227BC18DB003D0A3B /* FastFoodRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC98127BC18DB003D0A3B /* FastFoodRandomizerUITests.swift */; };
+		CEBDC98427BC18DB003D0A3B /* FastFoodRandomizerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDC98327BC18DB003D0A3B /* FastFoodRandomizerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBDC97427BC18DB003D0A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBDC95527BC18DA003D0A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBDC95C27BC18DA003D0A3B;
+			remoteInfo = FastFoodRandomizer;
+		};
+		CEBDC97E27BC18DB003D0A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBDC95527BC18DA003D0A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBDC95C27BC18DA003D0A3B;
+			remoteInfo = FastFoodRandomizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBDC95D27BC18DA003D0A3B /* FastFoodRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastFoodRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDC96027BC18DA003D0A3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBDC96227BC18DA003D0A3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEBDC96427BC18DA003D0A3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBDC96727BC18DA003D0A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBDC96927BC18DB003D0A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBDC96C27BC18DB003D0A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBDC96E27BC18DB003D0A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBDC97327BC18DB003D0A3B /* FastFoodRandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastFoodRandomizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDC97727BC18DB003D0A3B /* FastFoodRandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodRandomizerTests.swift; sourceTree = "<group>"; };
+		CEBDC97D27BC18DB003D0A3B /* FastFoodRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastFoodRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBDC98127BC18DB003D0A3B /* FastFoodRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodRandomizerUITests.swift; sourceTree = "<group>"; };
+		CEBDC98327BC18DB003D0A3B /* FastFoodRandomizerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastFoodRandomizerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBDC95A27BC18DA003D0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC97027BC18DB003D0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC97A27BC18DB003D0A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBDC95427BC18DA003D0A3B = {
+			isa = PBXGroup;
+			children = (
+				CEBDC95F27BC18DA003D0A3B /* FastFoodRandomizer */,
+				CEBDC97627BC18DB003D0A3B /* FastFoodRandomizerTests */,
+				CEBDC98027BC18DB003D0A3B /* FastFoodRandomizerUITests */,
+				CEBDC95E27BC18DA003D0A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBDC95E27BC18DA003D0A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC95D27BC18DA003D0A3B /* FastFoodRandomizer.app */,
+				CEBDC97327BC18DB003D0A3B /* FastFoodRandomizerTests.xctest */,
+				CEBDC97D27BC18DB003D0A3B /* FastFoodRandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBDC95F27BC18DA003D0A3B /* FastFoodRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC96027BC18DA003D0A3B /* AppDelegate.swift */,
+				CEBDC96227BC18DA003D0A3B /* SceneDelegate.swift */,
+				CEBDC96427BC18DA003D0A3B /* ViewController.swift */,
+				CEBDC96627BC18DA003D0A3B /* Main.storyboard */,
+				CEBDC96927BC18DB003D0A3B /* Assets.xcassets */,
+				CEBDC96B27BC18DB003D0A3B /* LaunchScreen.storyboard */,
+				CEBDC96E27BC18DB003D0A3B /* Info.plist */,
+			);
+			path = FastFoodRandomizer;
+			sourceTree = "<group>";
+		};
+		CEBDC97627BC18DB003D0A3B /* FastFoodRandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC97727BC18DB003D0A3B /* FastFoodRandomizerTests.swift */,
+			);
+			path = FastFoodRandomizerTests;
+			sourceTree = "<group>";
+		};
+		CEBDC98027BC18DB003D0A3B /* FastFoodRandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBDC98127BC18DB003D0A3B /* FastFoodRandomizerUITests.swift */,
+				CEBDC98327BC18DB003D0A3B /* FastFoodRandomizerUITestsLaunchTests.swift */,
+			);
+			path = FastFoodRandomizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBDC95C27BC18DA003D0A3B /* FastFoodRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDC98727BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizer" */;
+			buildPhases = (
+				CEBDC95927BC18DA003D0A3B /* Sources */,
+				CEBDC95A27BC18DA003D0A3B /* Frameworks */,
+				CEBDC95B27BC18DA003D0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastFoodRandomizer;
+			productName = FastFoodRandomizer;
+			productReference = CEBDC95D27BC18DA003D0A3B /* FastFoodRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBDC97227BC18DB003D0A3B /* FastFoodRandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDC98A27BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizerTests" */;
+			buildPhases = (
+				CEBDC96F27BC18DB003D0A3B /* Sources */,
+				CEBDC97027BC18DB003D0A3B /* Frameworks */,
+				CEBDC97127BC18DB003D0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBDC97527BC18DB003D0A3B /* PBXTargetDependency */,
+			);
+			name = FastFoodRandomizerTests;
+			productName = FastFoodRandomizerTests;
+			productReference = CEBDC97327BC18DB003D0A3B /* FastFoodRandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBDC97C27BC18DB003D0A3B /* FastFoodRandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBDC98D27BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizerUITests" */;
+			buildPhases = (
+				CEBDC97927BC18DB003D0A3B /* Sources */,
+				CEBDC97A27BC18DB003D0A3B /* Frameworks */,
+				CEBDC97B27BC18DB003D0A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBDC97F27BC18DB003D0A3B /* PBXTargetDependency */,
+			);
+			name = FastFoodRandomizerUITests;
+			productName = FastFoodRandomizerUITests;
+			productReference = CEBDC97D27BC18DB003D0A3B /* FastFoodRandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBDC95527BC18DA003D0A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CEBDC95C27BC18DA003D0A3B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CEBDC97227BC18DB003D0A3B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEBDC95C27BC18DA003D0A3B;
+					};
+					CEBDC97C27BC18DB003D0A3B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CEBDC95C27BC18DA003D0A3B;
+					};
+				};
+			};
+			buildConfigurationList = CEBDC95827BC18DA003D0A3B /* Build configuration list for PBXProject "FastFoodRandomizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBDC95427BC18DA003D0A3B;
+			productRefGroup = CEBDC95E27BC18DA003D0A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBDC95C27BC18DA003D0A3B /* FastFoodRandomizer */,
+				CEBDC97227BC18DB003D0A3B /* FastFoodRandomizerTests */,
+				CEBDC97C27BC18DB003D0A3B /* FastFoodRandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBDC95B27BC18DA003D0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC96D27BC18DB003D0A3B /* LaunchScreen.storyboard in Resources */,
+				CEBDC96A27BC18DB003D0A3B /* Assets.xcassets in Resources */,
+				CEBDC96827BC18DA003D0A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC97127BC18DB003D0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC97B27BC18DB003D0A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBDC95927BC18DA003D0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC96527BC18DA003D0A3B /* ViewController.swift in Sources */,
+				CEBDC96127BC18DA003D0A3B /* AppDelegate.swift in Sources */,
+				CEBDC96327BC18DA003D0A3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC96F27BC18DB003D0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC97827BC18DB003D0A3B /* FastFoodRandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBDC97927BC18DB003D0A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBDC98227BC18DB003D0A3B /* FastFoodRandomizerUITests.swift in Sources */,
+				CEBDC98427BC18DB003D0A3B /* FastFoodRandomizerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBDC97527BC18DB003D0A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBDC95C27BC18DA003D0A3B /* FastFoodRandomizer */;
+			targetProxy = CEBDC97427BC18DB003D0A3B /* PBXContainerItemProxy */;
+		};
+		CEBDC97F27BC18DB003D0A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBDC95C27BC18DA003D0A3B /* FastFoodRandomizer */;
+			targetProxy = CEBDC97E27BC18DB003D0A3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBDC96627BC18DA003D0A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBDC96727BC18DA003D0A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBDC96B27BC18DB003D0A3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBDC96C27BC18DB003D0A3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBDC98527BC18DB003D0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBDC98627BC18DB003D0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBDC98827BC18DB003D0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastFoodRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBDC98927BC18DB003D0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastFoodRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEBDC98B27BC18DB003D0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastFoodRandomizer.app/FastFoodRandomizer";
+			};
+			name = Debug;
+		};
+		CEBDC98C27BC18DB003D0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastFoodRandomizer.app/FastFoodRandomizer";
+			};
+			name = Release;
+		};
+		CEBDC98E27BC18DB003D0A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastFoodRandomizer;
+			};
+			name = Debug;
+		};
+		CEBDC98F27BC18DB003D0A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AFA6H93BD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rattananoeun.FastFoodRandomizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastFoodRandomizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBDC95827BC18DA003D0A3B /* Build configuration list for PBXProject "FastFoodRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC98527BC18DB003D0A3B /* Debug */,
+				CEBDC98627BC18DB003D0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDC98727BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC98827BC18DB003D0A3B /* Debug */,
+				CEBDC98927BC18DB003D0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDC98A27BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC98B27BC18DB003D0A3B /* Debug */,
+				CEBDC98C27BC18DB003D0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBDC98D27BC18DB003D0A3B /* Build configuration list for PBXNativeTarget "FastFoodRandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBDC98E27BC18DB003D0A3B /* Debug */,
+				CEBDC98F27BC18DB003D0A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBDC95527BC18DA003D0A3B /* Project object */;
+}
